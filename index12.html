@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vamos jogar</title>
+
+	<style>
+		body {
+			background-image: url(https://img.odcdn.com.br/wp-content/uploads/2023/08/jigsaw.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			text-align: center;		
+		}
+
+		.Titulo {
+			font-size: 40px;
+			color: red;
+			font-family: Arial;
+		}
+
+		.box {
+			background-color: white;
+			border-radius: 5px;
+			padding: 10px;
+			display: inline-block
+		}
+	</style>
+</head>
+
+	<body>
+		<h2 class="Titulo"> Olá, vamos jogar? </h2>
+		<br>
+		<button onclick="numero1()">SIM</button>
+		<br>
+		<br>
+		<button onclick="number1()">NÃO</button>
+		<script>
+			function numero1() {
+					console.log("Boa escolha");
+					alert("Boa escolha");
+					console.log("Vamos começar");
+					alert("Vamos começar");
+					window.location.href="https://youtu.be/lmnxNpEQ97s"
+			}	
+
+			function number1() {
+					console.log("Você não tem essa escolha");
+					alert("Você não tem essa escolha");
+					console.log("Eu ja te encontrei");
+					alert("Eu ja te encontrei");
+					window.location.href="https://maps.app.goo.gl/RdaKRFvdebJVEP9U6"
+			}
+		</script>
+	</body>
+	</html>
